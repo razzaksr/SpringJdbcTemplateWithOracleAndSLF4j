@@ -14,7 +14,7 @@ import java.util.Optional;
 @Service
 public class HaiServices {
     @Autowired
-    JdbcTemplate jdbcTemplate;
+    private JdbcTemplate jdbcTemplate;
 
     public String insertOne(Hai hai){
         String info=hai.getName()+" has inserted";
