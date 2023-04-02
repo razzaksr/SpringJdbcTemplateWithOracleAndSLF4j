@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:5500")
 public class HaiController {
     @Autowired
     private HaiServices services;
