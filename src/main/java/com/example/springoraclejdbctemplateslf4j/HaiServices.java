@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class HaiServices {
+public class HaiServices implements HaiRepository{
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
